@@ -20,7 +20,7 @@ def transform_data(data):
     return RESTAURANT_LIST
 
 
-#This function requests a zip code from the user and pulls the data corresponding to that zip code from the API:
+#This function pulls the data from the API:
 def pull_data(zip_code):
     global RESTAURANT_LIST
     if len(RESTAURANT_LIST) == 0:
@@ -32,11 +32,12 @@ def pull_data(zip_code):
     else:
         return RESTAURANT_LIST
 
-#Finally, this function initiates the data pull, formats it, and prints it:
+#Finally, this function requests a zip code from the user and initiates the data pull passing the zip_code variable on to the pull_data function
+#Once the nested functions have finished running, it also prints the final list:
 def get_restaurants():
-    zip_code = input("Please enter your zip code without spaces") #You can use this one: CT12EH
+    zip_code = input("Please enter your zip code without spaces: ") #You can use this one: CT12EH
     restaurants = pull_data(zip_code)
-    print(json.dumps(restaurants[0:9]))
+    print(json.dumps(restaurants[0:9])) #You can change the items from the list that are displayed by manipulating the range of restaurants
     return json.dumps(restaurants)
 
 #We only have to call the last function to perform the whole process:
