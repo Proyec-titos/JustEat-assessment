@@ -2,7 +2,7 @@
 This is a repository created to track the completion of and share the proposed solution to a coding exercise that makes up a part of the assessment process for the "Early Careers Enterprise IT Program" at JustEat Takeaway.
 
 * How to compile and run this code:
-   All that is needed to run this code is a python-compatible IDE and having the "requests" library installed. Here's a link to a quick guide on how to do so using pip, Python's native package manager: https://datagy.io/install-requests-python/
+   All that is needed to run this code is a python-compatible IDE and having the "requests" library installed. Here's a link to a quick guide on how to do so using pip, Python's native package manager: https://datagy.io/install-requests-python/.
    In my case, I used VS Code with the Python extension.
 
 * How to build this solution:
