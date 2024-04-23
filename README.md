@@ -20,5 +20,5 @@ This is a repository created to track the completion of and share the proposed s
      - The list of restaurants printed to the screen lacks an easy-to-read format.
      - There should be a loop to check the zip code entered by the user and make sure it is a valid input.
 
-*Note(s):
+* Note(s):
 - Version 2.0.0 of this code fulfills the prompt as written, while version 2.1.0 is a solution that accepts input from the user to select a zip code, and then generates the list as requested on the exercise.
