@@ -34,7 +34,7 @@ def pull_data(zip_code):
 
 #Finally, this function initiates the data pull, formats it, and prints it:
 def get_restaurants():
-    zip_code = input("Please enter your zip code without spaces")
+    zip_code = input("Please enter your zip code without spaces") #You can use this one: CT12EH
     restaurants = pull_data(zip_code)
     print(json.dumps(restaurants[0:9]))
     return json.dumps(restaurants)
