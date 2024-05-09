@@ -9,10 +9,10 @@ This is a repository created to track the completion of and share the proposed s
    This solution uses a set of nested functions to pull the data from the API, filter it to obtain the relevant data, create a list out of that data, and finally print it to the screen. The different blocks it is divided in are as follows:
    1. Importing relevant libraries and initializing the restaurant list variable that is as our end-goal variable.
    2. Definition of functions:
-      2.1 transform_data: constructs the list of restaurants by filtering the pulled data, then adding the relevant attributes to a dictionary variable that will represent each individual restaurant, and finally adding that dictionary to our list.
-      2.2 pull_data: pulls the data from the API.
-      2.3 get_restaurants: requests a zip code from the user and initiates the data pull passing the zip_code variable on to the pull_data function. Once the nested functions have finished running, it also prints the final list.
-   3. Running the outer function: running get_restaurants starts the process.
+      - 2.1 transform_data: constructs the list of restaurants by filtering the pulled data, then adding the relevant attributes to a dictionary variable that will represent each individual restaurant, and finally adding that dictionary to our list.
+      - 2.2 pull_data: pulls the data from the API.
+      - 2.3 get_restaurants: requests a zip code from the user and initiates the data pull passing the zip_code variable on to the pull_data function. Once the nested functions have finished running, it also prints the final list.
+   4. Running the outer function: running get_restaurants starts the process.
 
 * Areas of improvement:
   While this solution works, there are aspects of it that could be polished if given more development time, namely:
